@@ -407,7 +407,7 @@ $fillerList = getFillerEpisodesWithCache($malId, $ANIME_NAME);
                                                             <div class="ssli-order" title="">
                                                                 <?= $episode['episodeNum'] ?>
                                                                 <?php if ($isFiller) : ?>
-                                                                    <span class="filler-badge" style="color: red;"></span>
+                                                                    <span class="filler-badge" style="display: none;"></span>
                                                                 <?php endif; ?>
                                                             </div>
                                                             <div class="ssli-detail">
